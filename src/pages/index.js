@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Hero from "@/components/Hero";
 
 const Home = () => {
   return (
@@ -11,8 +12,8 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="flex bg-black text-yellow-50">
-          Hello Next JS Homepage
+        <div className=" w-full overflow-hidden">
+          <Hero />
         </div>
       </main>
     </>
