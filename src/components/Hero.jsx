@@ -17,10 +17,14 @@ const Hero = () => {
         id="plugg-Solgan"
         className="flex flex-row justify-between items-center w-full"
       >
-        <h1 className="flex-1 font-poppins font-semibold text-black">
-          {" "}
-          Get Paid
-        </h1>
+        <div className="flex flex-col justify-start items-start ml-[77px]">
+          <p className="flex-1 font-Montserrat bold text-black text-[112.131px]">
+            Get Paid
+          </p>
+          <p className=" text-[#4FC37E] text-[40.77px] semibold font-Montserrat">
+            What you are already doing
+          </p>
+        </div>
       </div>
     </section>
   );

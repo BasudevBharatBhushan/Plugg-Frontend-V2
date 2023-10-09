@@ -6,6 +6,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
+    fontFamily: {
+      Montserrat: ["Montserrat", "sans-serif"],
+    },
     extend: {
       colors: {
         primary: "#202225",
